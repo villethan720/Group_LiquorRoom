@@ -28,9 +28,9 @@
         <section class="liquors">
             <h2>All of the Different Liquors We Own</h2>
             <div class="buttons-container">
-                <a href="tequila.html" class="btn liquor-btn">Tequila</a>
-                <a href="vodka.html" class="btn liquor-btn">Vodka</a>
-                <a href="whiskey.html" class="btn liquor-btn">Whiskey</a>
+                <a href="tequila.php" class="btn liquor-btn">Tequila</a>
+                <a href="vodka.php" class="btn liquor-btn">Vodka</a>
+                <a href="whiskey.php" class="btn liquor-btn">Whiskey</a>
             </div>
         </section>
     </main>
