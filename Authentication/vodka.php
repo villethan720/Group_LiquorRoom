@@ -10,7 +10,7 @@
     <!-- Navigation Section -->
     <nav class="nav">
         <div class="container">
-            <a href="products.html" class="btn">Back to Alcohol...</a>
+            <a href="products.php" class="btn">Back to Alcohol...</a>
         </div>
     </nav>
 
