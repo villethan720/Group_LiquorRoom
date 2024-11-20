@@ -22,7 +22,7 @@
     <!-- Navigation Section -->
     <nav class="nav">
         <div class="container">
-            <a href="products.html" class="btn">Explore Our Products</a>
+            <a href="products.php" class="btn">Explore Our Products</a>
         </div>
     </nav>
 
