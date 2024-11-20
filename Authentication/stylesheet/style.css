@@ -1,0 +1,22 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    background-color:burlywood;
+}
+
+.chat-container {
+    max-width:60px;
+    margin:50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8;
+    box-shadow: 1px;
+}
+
+#chatbox {
+    border:1px auto;
+    padding:10px;
+    height: 300px;
+    
+}

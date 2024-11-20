@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+        url('/Authentication/img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    line-height: 1.8;
+    scroll-behavior: smooth;
+}
+
+/* Typography */
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #f8c533;
+    text-align: center;
+    margin: 2.5rem 0 1.5rem;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Navigation */
+.nav {
+    background: rgba(248, 197, 51, 0.95);
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav .btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1e1e1e;
+    background-color: #f8c533;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border: 2px solid #1e1e1e;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav .btn:hover {
+    background: #1e1e1e;
+    color: #f8c533;
+    transform: scale(1.05);
+}
+
+/* Jukebox Section */
+.jukebox {
+    text-align: center;
+    margin: 2.5rem auto;
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+audio {
+    margin-top: 1rem;
+    background-color: #333;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Vodkas Showcase */
+.vodkas {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.vodka-images {
+    display: flex; /* Arrange images side by side */
+    justify-content: center; /* Center the images horizontally */
+    gap: 1.5rem; /* Add spacing between images */
+    flex-wrap: wrap; /* Allow wrapping to new lines for responsiveness */
+    padding: 1rem 0;
+}
+
+.img-container {
+    width: 150px; /* Set a fixed width for the container */
+    text-align: center;
+}
+
+.img-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block;
+    border-radius: 12px; /* Rounded corners */
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.img-container img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.6);
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    border-top: 4px solid #f8c533;
+}
+
+.footer p {
+    color: #999;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
