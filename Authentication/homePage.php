@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./stylesheets/style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Authentication/stylesheets/botStyle.css">
 </head>
 <body>
     <!-- Header Section -->
@@ -55,6 +56,13 @@
         </section>
     </main>
 
+    <!-- chatbot container-->
+     <div class="collapsible">
+        <div id="chatbot-container">
+            <?php include 'bot_logic.php'; ?>
+        </div>
+    </div>  
+    
     <!-- Footer Section -->
     <footer class="footer">
         <div class="container">
@@ -66,5 +74,10 @@
             </p>
         </div>
     </footer>
+
+<!--script needed for chatbot-->
+<script src="/Authentication/js/showChatbot.js"></script>
+
 </body>
 </html>
+
