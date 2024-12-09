@@ -18,8 +18,8 @@
     <main class="content">
         <!-- Jazz Juke Box Section -->
         <section class="jukebox">
-            <h2>Jazz Juke Box</h2>
-            <audio controls>
+            <h2>Jazz Juke Box</h2> 
+            <audio controls autoplay>
                 <source src="/Authentication/music/jazz2.mp3" type="audio/mpeg">
             </audio>
         </section>
