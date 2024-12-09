@@ -1,0 +1,90 @@
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+/* Chatbot container */
+#chatbot-container {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Chatbot toggle button */
+.chatbot-toggle {
+    display: block;
+    padding: 10px;
+    background: burlywood;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Optional: Add animation for smooth opening */
+#chatbot-container {
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(100%);
+}
+
+#chatbot-container.active {
+    transform: translateY(0);
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #f8c533;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#chatbot {
+    border: 1px solid black;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.user-message {
+    background: #12b543;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.bot-message{
+    background: rgba(11, 124, 236, 0.981);
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+h1{
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+    font: size 40px;
+    border-radius: 4px;
+    color:white;
+}
+
+h2{
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+    font: size 40px;
+    border-radius: 4px;
+    color:white;
+}
