@@ -117,3 +117,25 @@ audio {
     font-size: 1rem;
     margin: 0.5rem 0;
 }
+
+/*styling for the table*/
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f8c533;
+}
+
+/*for search input*/
+.search-container {
+    position: relative;
+    left: 170px;
+    border: 1px solid black;
+}
