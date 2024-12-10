@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liquor Products</title>
     <link rel="stylesheet" href="/Authentication/stylesheets/style4.css">
+    <link rel="stylesheet" href="/Authentication/stylesheets/botStyle.css">
 </head>
 <body>
     <!-- Navigation Section -->
@@ -35,11 +36,27 @@
         </section>
     </main>
 
+     <!-- chatbot container-->
+    <div class="collapsible">
+        <div id="chatbot-container">
+            <div class="container">
+                <button id="toggleButton" class="btn">Open/Close</button>
+                <div id="collapseContent" class="collapse-content">
+                    <?php include 'bot_logic.php'; ?>
+                </div>
+            </div>
+        </div>
+    </div> 
+
     <!-- Footer Section -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 The Liquor Lounge. All Rights Reserved.</p>
         </div>
     </footer>
+    
+    <!--script needed for chatbot-->
+    <script src="/Authentication/js/showChatbot.js"></script>
+    
 </body>
 </html>
