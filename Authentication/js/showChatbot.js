@@ -28,3 +28,16 @@ const showChatbot = () => {
 //event listener to detect the user presence
 document.addEventListener('mousemove', detectActivity);
 document.addEventListener('keydown', detectActivity);
+
+//button elements
+const button = document.getElementById('toggleButton');
+const content = document.getElementById('collapseContent');
+
+//makes content collapsible
+button.addEventListener('click', () => {
+    if (content.style.display === 'none' || content.style.display === "") {
+        content.style.display = 'block';
+    } else {
+        content.style.display = 'none';
+    }
+})
