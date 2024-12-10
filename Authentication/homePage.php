@@ -59,9 +59,14 @@
     <!-- chatbot container-->
      <div class="collapsible">
         <div id="chatbot-container">
-            <?php include 'bot_logic.php'; ?>
+            <div class="container">
+                <button id="toggleButton" class="btn">Open/Close</button>
+                <div id="collapseContent" class="collapse-content">
+                    <?php include 'bot_logic.php'; ?>
+                </div>
+            </div>
         </div>
-    </div>  
+    </div>    
     
     <!-- Footer Section -->
     <footer class="footer">
